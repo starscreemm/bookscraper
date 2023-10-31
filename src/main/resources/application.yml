@@ -1,0 +1,13 @@
+store:
+  bukva:
+    storeName: BukvaUA
+    searchUrl: https://bukva.ua/ua/search/index/?l=1&group=445&search=%s
+    mainSelector: div[class^=no]
+    titleBookSelector: .h4 a
+    descriptionBookSelector: .row p
+    imgBookSelector: .img-responsive.center-block
+    bookUrlSelector: .h4 a
+    authorsListBookSelector: .h4 span
+    priceBookSelector: .price_value_left
+    availableBookSelector: .price_text_left.btn.btn-primary.btn-sm
+    bookDetailsSelector: .book-detail
